@@ -1,0 +1,79 @@
+*{
+	border: 1px solid black;
+}
+/*MODELO DE CAJAS*/
+body{/*Margen del body*/
+	margin: auto 3%;
+}
+header{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a+a{
+	margin-left: 15%;
+}
+img{/*Imagenes normales*/
+	margin: 1%;
+	width: 80%;
+	height: auto;
+}
+img.circular{/*Imagenes circulares y para redes sociales*/
+	margin: 1%;
+	width: 15%;
+	border-radius: 50%;
+}
+.aparte{/*Imagenes del aside*/
+	margin: 2% 3%;
+	width: 90%;
+	height: auto;
+}
+article{/*Espacio que ocupara el article*/
+	width: 46%;
+	/*border: 5px solid pink;*/
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 1%;
+}
+div.contenido > h3{
+	font-family: monospace;
+}
+main{
+	/*background-color: gray;*/
+	position: relative;
+}
+section{
+	/*background-color: pink;*/
+	width: 73%
+}
+aside{
+	position: absolute;
+	right: 0px;
+	width: 26.5%;
+	top: 0px;
+	height: 100%;
+	padding: auto 2%;
+	overflow-y: scroll;
+}
+section.principal div.contenido{
+	margin: 5% 10%;
+	text-align: justify;
+	font-size: 1.3em;
+}
+div.redsocial{
+	width:20%;
+	margin: auto 2%;
+}
+footer div.contenido{
+	width: 40%;
+	text-align: center;
+	float: right;
+	margin: 2% 2%;
+	text-align: right;
+}
+footer a{
+	position: relative;
+	top: -10px;
+}
