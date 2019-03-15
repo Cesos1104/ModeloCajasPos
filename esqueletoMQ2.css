@@ -1,0 +1,340 @@
+
+/*Para dispositivos pequeños*/
+@media (min-width: 500px) {
+	body {
+		background-color: lightblue;
+	}
+	*{
+		border: 1px solid black;
+		/******************************************Cambiamos*********************************/
+		font-size: 3vw;
+	}
+	/*MODELO DE CAJAS*/
+	body{/*Margen del body*/
+		/******************************************Cambiamos*********************************/
+		margin: auto 1%;
+	}
+
+	header{
+		text-align: center;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	a+a{
+		margin-left: 15%;
+	}
+	img{/*Imagenes normales*/
+		margin: 1%;
+		width: 80%;
+		height: auto;
+	}
+	video{/*Videos responsivos*/
+		margin: 1% 10%;
+		width: 80%;
+		height: auto;
+		display: inline-block;
+	}
+	img.circular{/*Imagenes circulares y para redes sociales*/
+		margin: 1%;
+		width: 15%;
+		border-radius: 50%;
+	}
+	article{/*Espacio que ocuparan los articulos*/
+		/******************************************Cambiamos*********************************/
+		width: 100%;
+		/*border: 5px solid pink;*/
+		text-align: center;
+		/******************************************Quitamos*********************************/
+		/*display: inline-block;*/
+		padding-bottom: 1%;
+	}
+	div.contenido > h3{
+		font-family: monospace;
+	}
+
+	main{
+		/*background-color: gray;*/
+		/*El main se hace relativo para que al posicionar el aside, se rija por el contenedor y no por el navegador*/
+		position: relative;
+	}
+	section{
+		/*background-color: pink;*/
+		/******************************************Cambiamos*********************************/
+		width: 100%
+	}
+	section.principal{
+		/*background-color: pink;*/
+		/******************************************Cambiamos*********************************/
+		width: 100%
+	}
+
+	aside{
+		/******************************************Quitamos*********************************/
+		/*position: absolute;
+		right: 0px;*/
+		/******************************************Cambiamos*********************************/
+		width: 100%;
+		/******************************************Quitamos*********************************/
+		/*top: 12%;*/
+		/******************************************Quitamos*********************************/
+		/*height: 15%;*/
+		padding: auto 2%;
+		/******************************************Cambiamos*********************************/
+		overflow-x: hidden;
+	}
+	section.principal div.contenido{
+		margin: 5% 10%;
+		text-align: justify;
+	}
+	div.redsocial{
+		width:20%;
+		margin: auto 2%;
+	}
+	footer{
+		margin: 1% auto 5% auto;
+	}
+	footer div.contenido{
+		width: 40%;
+		text-align: center;
+		float: right;
+		margin: 2% 2%;
+		text-align: right;
+	}
+	footer a{
+		position: relative;
+		top: -8px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/*Para dispositivos medianos*/
+@media (min-width: 750px) and (max-width: 1099px){
+	body {
+		background-color: lightpink;
+	}
+	*{
+		border: 1px solid black;
+		/******************************************Cambiamos*********************************/
+		font-size: 2vw;
+	}
+	/*MODELO DE CAJAS*/
+	body{/*Margen del body*/
+		margin: auto 3%;
+	}
+
+	header{
+		text-align: center;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	a+a{
+		margin-left: 15%;
+	}
+	img{/*Imagenes normales*/
+		margin: 1%;
+		width: 80%;
+		height: auto;
+	}
+	video{/*Imagenes normales*/
+		margin: 1% 10%;
+		width: 80%;
+		height: auto;
+	}
+	img.circular{/*Imagenes circulares y para redes sociales*/
+		margin: 1%;
+		width: 15%;
+		border-radius: 50%;
+	}
+	img.aparte{/*Imagenes del aside*/
+		margin: 2% 3%;
+		width: 90%;
+		height: auto;
+	}
+	article{/*Espacio que ocuparan los articulos*/
+		/******************************************Cambiamos*********************************/
+		width: 100%;
+		/*border: 5px solid pink;*/
+		text-align: center;
+		/******************************************Quitamos*********************************/
+		/*display: inline-block;*/
+		padding-bottom: 1%;
+	}
+	div.contenido > h3{
+		font-family: monospace;
+	}
+	main{
+		/*background-color: gray;*/
+		/*El main se hace relativo para que al posicionar el aside, se rija por el contenedor y no por el navegador*/
+		position: relative;
+	}
+	section{
+		/*background-color: pink;*/
+		/******************************************Cambiamos*********************************/
+		width: 60%
+	}
+	section.principal{
+		/*background-color: pink;*/
+		/******************************************Cambiamos*********************************/
+		width: 100%
+	}
+
+	aside{
+		position: absolute;
+		right: 0px;
+		/******************************************Cambiamos*********************************/
+		width: 39%;
+		/******************************************Cambiamos*********************************/
+		top: 13%;
+		/******************************************Cambiamos*********************************/
+		height: 88%;
+		padding: auto 2%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	section.principal div.contenido{
+		margin: 5% 10%;
+		text-align: justify;
+	}
+	div.redsocial{
+		width:20%;
+		margin: auto 2%;
+	}
+	footer{
+		margin: 1% auto 5% auto;
+	}
+	footer div.contenido{
+		width: 40%;
+		text-align: center;
+		float: right;
+		margin: 2% 2%;
+		text-align: right;
+	}
+	footer a{
+		position: relative;
+		top: -8px;
+	}
+} 
+
+
+
+
+
+
+
+
+
+
+/*Para dispositivos grandes*/
+@media  (min-width: 1100px)and (max-width: 3000px) {
+	body {
+		background-color: lightgreen;
+	}
+	*{
+		border: 1px solid black;
+		font-size: 1.5vw;
+	}
+	/*MODELO DE CAJAS*/
+	body{/*Margen del body*/
+		margin: auto 3%;
+	}
+
+	header{
+		text-align: center;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	a+a{
+		margin-left: 15%;
+	}
+	img{/*Imagenes normales*/
+		margin: 1%;
+		width: 80%;
+		height: auto;
+	}
+	video{/*Videos responsivos*/
+		margin: 1% 10%;
+		width: 80%;
+		height: auto;
+	}
+	img.circular{/*Imagenes circulares y para redes sociales*/
+		margin: 1%;
+		width: 15%;
+		border-radius: 50%;
+	}
+
+	article{/*Espacio que ocuparan los articulos*/
+		width: 46%;
+		/*border: 5px solid pink;*/
+		text-align: center;
+		display: inline-block;
+		padding-bottom: 1%;
+	}
+	div.contenido > h3{
+		font-family: monospace;
+	}
+	main{
+		/*background-color: gray;*/
+		/*El main se hace relativo para que al posicionar el aside, se rija por el contenedor y no por el navegador*/
+		position: relative;
+	}
+	section{
+		/*background-color: pink;*/
+		width: 73%
+	}
+	section.principal{
+		/*background-color: pink;*/
+		width: 73%
+	}
+	aside{
+		position: absolute;
+		right: 0px;
+		width: 26.5%;
+		top: 0px;
+		height: 100%;
+		padding: auto 2%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	section.principal div.contenido{
+		margin: 5% 10%;
+		text-align: justify;
+	}
+	div.redsocial{
+		width:20%;
+		margin: auto 2%;
+	}
+	footer{
+		margin: 1% auto 5% auto;
+	}
+	footer div.contenido{
+		width: 40%;
+		text-align: center;
+		float: right;
+		margin: 2% 2%;
+		text-align: right;
+	}
+	footer a{
+		position: relative;
+		top: -8px;
+	}
+}
+
+
+
+
+
+
+
